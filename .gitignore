@@ -1,3 +1,10 @@
+# managed directories that are checked out by the externals tool
+cime/
+components/
+libraries/
+share/
+ccs_config/
+
 # generated local files
 *.log
 
