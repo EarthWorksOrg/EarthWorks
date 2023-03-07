@@ -1,0 +1,135 @@
+EarthWorks Modeling System License
+
+*******************************************************************************
+
+Except for the separable pieces described below, the EarthWorks Modeling System
+is released under the following BSD 3-Clause Open Source license.
+
+*******************************************************************************
+Copyright ©2023, Colorado State University, All Rights Reserved
+
+Software Name: EarthWorks Modeling System (EWMS)
+
+Redistribution and use in source or binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+3. Neither the names of Colorado State University, nor the National Science
+Foundation nor the names of its contributors may be used to endorse or promote
+products derived from this software without specific prior written permission.
+
+THE SOFTWARE IS SUPPLIED "AS IS" WITHOUT WARRANTY OF ANY KIND. NEITHER THE
+UNITED STATES GOVERNMENT, NOR THE NATIONAL SCIENCE FOUNDATION, NOR COLORADO
+STATE UNIVERSITY, NOR ANY OF THEIR EMPLOYEES, MAKES ANY WARRANTY, EXPRESS OR
+IMPLIED, OR ASSUMES ANY LEGAL LIABILITY OR RESPONSIBILITY FOR THE ACCURACY,
+COMPLETENESS, OR USEFULNESS OF ANY INFORMATION, DATA, APPARATUS, PRODUCT, OR
+PROCESS DISCLOSED, OR REPRESENTS THAT ITS USE WOULD NOT INFRINGE PRIVATELY
+OWNED RIGHTS.
+
+
+*******************************************************************************
+
+EWMS was developed from elements of  CESM2.3beta09 and E3SM v2.0.0
+
+*******************************************************************************
+CESM Copyright Notice and Disclaimer:
+
+The Community Earth System Model (CESM) was developed in cooperation with the
+National Science Foundation, the Department of Energy, the National Aeronautics
+and Space Administration, and the University Corporation for Atmospheric
+Research's National Center for Atmospheric Research.
+
+CESM is public domain software.
+
+*******************************************************************************
+E3SM Copyright Notice and Disclaimer:
+
+The Energy Exascale Earth System Model (E3SM) was developed in cooperation with
+the Department of Energy.
+
+E3SM is public domain software.
+
+*******************************************************************************
+
+
+EWMS is composed of separable pieces with their own copyright and license.  See
+the table below for  details.
+
+Name            Code Location            Institution(s)        License
+-------------------------------------------------------------------------------
+
+Infrastructure
+----------------
+CIME            cime/scripts             UCAR, SNL             BSD
+cpl7            driver-mct/              UCAR, ANL             BSD
+MCT             externals/mct            ANL                   BSD
+ESMF            external library         UI, NCSA              BSD 3-Clause
+XML/Lite        cime/utils/perl5lib      The Wadsack-Allen     GGPL-v1 or later
+                                         Digital Group 
+Inf_NaN         ./share/src              Lahey Compute Systems, non-commercial[^1]
+                                         Inc.
+
+Ocean/Ice       components/
+-----------------------------------------
+CICE            cice                     LANL                  BSD
+MPAS Framework  mpas-framework           LANL                  BSD 3-Clause
+MPAS Ocean      mpas-ocean               LANL                  BSD 3-Clause
+MPAS SeaIce     mpas-seaice              LANL                  BSD 3-Clause
+SCRIP                                    LANL                  BSD 3-Clause
+
+Land            components/clm/src
+-----------------------------------------
+FATES           external_models/fates    UCAR, U.C. Berkeley   GLGPL-v3
+CISM            components/cism          UCAR, LANL,
+                                         LBNL, SNL, ORNL,
+                                         U. Montana, NYU,
+                                         U. Edinburgh,
+                                         U. Bristol,
+                                         U. Swansea
+
+Atmosphere      under components/cam/src
+-----------------------------------------
+MPAS Atmosphere dynamics/mpas            LANL, UCAR            BSD 3-Clause
+CLUBB           physics/clubb            the Larson Research   non-commercial[^2]
+                                         Group
+RRTMGP          physics/rrtmgp/external  AER and the U Colo.   BSD 3-Clause
+ISCCP[^3]       physics/cosp2/src/       UK Met Office;        unknown
+                                         Authors[^4]
+-------------------------------------------------------------------------------
+
+
+Actual copyright holder for above Institutions (where these can be determined):
+
+UCAR =  University Corporation for Atmospheric Research
+LANL =  Los Alamos National Security, LLC
+SNL  =  National Technology & Engineering Solutions of Sandia, LLC
+LBNL =  The Regents of the University of California, through Lawrence Berkeley
+        National Laboratory
+ORNL = Oak Ridge National Laboratory
+ANL  =  University of Chicago Argonne, LLC
+AER  =  Atmospheric & Environmental Research, Inc.
+NYU = Regents of New York University
+U Colo. = Regents of the University of Colorado
+U. Montana = Regents of the University of Montana
+UK Met Office =  British Crown Copyright 2009, the Met Office
+U. Edinburgh = The University of Edinburgh
+U. Bristol = The  University of Bristol
+U. Swansea = Swansea University
+*******************************************************************************
+
+There may be other third party tools and libraries that are integrated into
+CESM, and they may have their own copyright notices and terms.
+
+[^1]: License reads: “Copies of this source code, or standalone compiled files
+derived from this source, may not be sold without permission from Lahey
+Computers Systems. All or part of this module may be freely Incorporated into
+executable programs which are offered for Sale. Otherwise, distribution of all
+or part of this file is permitted, provided this copyright notice and header
+are included.”
+[^2]: See https://carson.math.uwm.edu/larson-group/clubb_site/license.html
+[^3]: ISCCP: International Satellite Cloud Climatology Project
+[^4]: Steve Klein and Mark Webb
