@@ -1,6 +1,6 @@
 # Earthworks
 
-![trackgit-views](https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/lkr44qwuwkgg22lsrolk)
+![trackgit-views](https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/lkr44qwuwkgg22lsrolk) [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://github.com/EarthWorksOrg/EarthWorks/blob/main/LICENSE)
 
 EarthWorks is a community earth system model that strives to provide high-resolution climate-scale simulations. This work leverages and extends the [Community Earth System Model](https://github.com/ESCOMP/CESM) where possible to allow coupled runs of Atmosphere, Land, and Ocean components on a single grid with horizontal spacing (cell size) less than 4km.
 
