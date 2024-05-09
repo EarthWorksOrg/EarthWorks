@@ -36,6 +36,14 @@
     - grid  (optional regular expression match for grid to work with the compset)
   </help>
 
+  <!-- EarthWorks specific compsets -->
+  <compset>
+    <alias>FullyCoupled-EW</alias>
+    <lname>2000_CAM60_CLM50%SP_MPASSI_MPASO_SROF_SGLC_SWAV</lname>
+  </compset>
+
+  <!-- END EarthWorks specific compsets -->
+
   <!-- 1850 compsets Default, Mosart, Wave for CESM2 -->
 
   <compset>
