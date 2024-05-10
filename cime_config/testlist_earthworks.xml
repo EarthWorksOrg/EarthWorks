@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<testlist version="2.0">
+  <test name="SMS_P128_Vnuopc" grid="mpasa480_oQU480" compset="FullyCoupled-EW" testmods="earthworks/fullycoupled">
+    <machines>
+      <machine name="derecho" compiler="intel" category="ew-pr"/>
+    </machines>
+    <options>
+      <option name="wallclock"> 01:00:00 </option>
+      <option name="comment">EarthWorks model with active mpasa, mpaso, mpassi</option>
+    </options>
+  </test>
+</testlist>
