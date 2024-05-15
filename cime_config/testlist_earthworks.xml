@@ -13,8 +13,6 @@
   <test name="SMS_P128_Vnuopc" grid="mpasa120z32_mpasa120" compset="FKESSLER" >
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
-      <machine name="derecho" compiler="intel" category="ew-pr"/>
-      <machine name="derecho" compiler="gnu" category="ew-pr"/>
     </machines>
     <options>
       <option name="wallclock"> 00:05:00 </option>
@@ -23,8 +21,6 @@
   <test name="SMS_P128_Vnuopc" grid="mpasa120_mpasa120" compset="QPC6" >
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
-      <machine name="derecho" compiler="intel" category="ew-pr"/>
-      <machine name="derecho" compiler="gnu" category="ew-pr"/>
     </machines>
     <options>
       <option name="wallclock"> 00:20:00 </option>
@@ -33,8 +29,6 @@
   <test name="SMS_P128_Vnuopc" grid="mpasa120_mpasa120" compset="F2000climo" >
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
-      <machine name="derecho" compiler="intel" category="ew-pr"/>
-      <machine name="derecho" compiler="gnu" category="ew-pr"/>
     </machines>
     <options>
       <option name="wallclock"> 00:20:00 </option>
