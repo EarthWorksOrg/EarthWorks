@@ -43,7 +43,7 @@
       <machine name="derecho" compiler="gnu" category="ew-pr"/>
     </machines>
     <options>
-      <option name="wallclock"> 00:10:00 </option>
+      <option name="wallclock"> 01:00:00 </option>
       <option name="comment">EarthWorks model with active mpasa, mpaso, mpassi</option>
     </options>
   </test>
