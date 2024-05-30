@@ -110,6 +110,12 @@
      <lname>2000_CAM60_CLM50%SP_MPASSI%PRES_DOCN%DOM_MOSART_CISM2%NOEVOLVE_SWAV</lname>
   </compset>
 
+  <!-- F2000dev, with MPASSI%PRES -->
+  <compset>
+    <alias>F2000devEW</alias>
+    <lname>2000_CAM%DEV_CLM50%SP_MPASSI%PRES_DOCN%DOM_MOSART_SGLC_SWAV</lname>
+  </compset>
+
   <compset>
       <alias>FullyCoupledEW</alias>
       <lname>2000_CAM60_CLM50%SP_MPASSI_MPASO_SROF_SGLC_SWAV</lname>
@@ -119,6 +125,12 @@
   <compset>
      <alias>CHAOS2000</alias>
      <lname>2000_CAM60_CLM50%SP_MPASSI_MPASO_MOSART_SGLC_SWAV</lname>
+  </compset>
+
+  <!-- Use cam_dev / CAM7 physics instead -->
+  <compset>
+     <alias>CHAOS2000dev</alias>
+     <lname>2000_CAM%DEV_CLM50%SP_MPASSI_MPASO_MOSART_SGLC_SWAV</lname>
   </compset>
 
   <entries>
