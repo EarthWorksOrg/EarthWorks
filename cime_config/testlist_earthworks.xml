@@ -70,7 +70,7 @@
   </test>
 
   <!-- ew-rel Tests to run while creating a release -->
-  <test name="ERP_Vnuopc" grid="mpasa120_oQU120" compset="FullyCoupledEW">
+  <test name="ERS_P128_Vnuopc" grid="mpasa120_oQU120" compset="CHAOS2000dev">
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-rel"/>
       <machine name="derecho" compiler="intel" category="ew-rel"/>
@@ -79,40 +79,40 @@
       <option name="wallclock"> 00:15:00 </option>
     </options>
   </test>
-  <test name="ERP_Vnuopc" grid="mpasa120z58_oQU120" compset="FullyCoupledEW">
+  <test name="ERS_P128_Vnuopc" grid="mpasa120z58_oQU120" compset="CHAOS2000dev">
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-rel"/>
       <machine name="derecho" compiler="intel" category="ew-rel"/>
     </machines>
     <options>
-      <option name="wallclock"> 01:00:00 </option>
+      <option name="wallclock"> 12:00:00 </option>
     </options>
   </test>
-  <test name="ERP_Vnuopc" grid="mpasa060_oQU060" compset="FullyCoupledEW">
+  <test name="ERS_P128_Vnuopc" grid="mpasa060_oQU060" compset="CHAOS2000dev">
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-rel"/>
       <machine name="derecho" compiler="intel" category="ew-rel"/>
     </machines>
     <options>
-      <option name="wallclock"> 00:30:00 </option>
+      <option name="wallclock"> 12:00:00 </option>
     </options>
   </test>
-  <test name="ERP_Vnuopc" grid="mpasa030_oQU030" compset="FullyCoupledEW">
+  <test name="ERS_P5120_Vnuopc" grid="mpasa030_oQU030" compset="CHAOS2000dev">
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-rel"/>
       <machine name="derecho" compiler="intel" category="ew-rel"/>
     </machines>
     <options>
-      <option name="wallclock"> 01:00:00 </option>
+      <option name="wallclock"> 12:00:00 </option>
     </options>
   </test>
-  <test name="ERP_Vnuopc" grid="mpasa015z58_oQU015" compset="FullyCoupledEW">
+  <test name="ERS_P10240_Vnuopc" grid="mpasa015z58_oQU015" compset="CHAOS2000dev">
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-rel"/>
       <machine name="derecho" compiler="intel" category="ew-rel"/>
     </machines>
     <options>
-      <option name="wallclock"> 01:00:00 </option>
+      <option name="wallclock"> 12:00:00 </option>
     </options>
   </test>
 </testlist>
