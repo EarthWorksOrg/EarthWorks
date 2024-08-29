@@ -10,3 +10,18 @@ Visit our [Wiki](https://github.com/EarthWorksOrg/EarthWorks/wiki) for instructi
 
 This work is made possible through collaboration of NSF NCAR, Colorado State University, and others.
 
+-----------
+
+To checkout externals:
+
+    ./bin/git-fleximod update
+
+The externals are stored in: .gitmodules
+
+The .gitmodules file can be modified. Then, running `bin/git-fleximod update` fetches the updated externals.
+
+Details about git-fleximod and the variables in the .gitmodules file can be found in: .lib/git-fleximod/README.md
+
+OR online in the repository for git-fleximod: https://github.com/ESMCI/git-fleximod
+
+------------
