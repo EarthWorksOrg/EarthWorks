@@ -57,9 +57,9 @@
 
 [submodule "cam"]
         path = components/cam
-        url = https://www.github.com/EarthWorksOrg/CAM
+        url = https://www.github.com/gdicker1/CAM
         fxDONOTUSEurl = https://www.github.com/ESCOMP/CAM
-        fxtag = cam-ew2.3.005
+        fxtag = add_v8mpasfiles_eworg2
         fxrequired = ToplevelRequired
 
 [submodule "clm"]
