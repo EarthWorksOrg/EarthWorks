@@ -59,7 +59,7 @@
         path = components/cam
         url = https://www.github.com/EarthWorksOrg/CAM
         fxDONOTUSEurl = https://www.github.com/ESCOMP/CAM
-        fxtag = cam-ew2.3.004
+        fxtag = cam-ew2.3.006
         fxrequired = ToplevelRequired
 
 [submodule "clm"]
@@ -67,7 +67,7 @@
         url = https://github.com/EarthWorksOrg/CTSM
         fxDONOTUSEurl = https://github.com/ESCOMP/CTSM
         fxrequired = ToplevelRequired
-        fxtag = ctsm-ew2.3.003
+        fxtag = ctsm-ew2.3.004
 
 [submodule "cice"]
         path = components/cice
@@ -164,14 +164,14 @@
         url = https://github.com/EarthWorksOrg/mpas-ocean.git
         fxDONOTUSEurl = https://github.com/EarthWorksOrg/mpas-ocean.git
         fxrequired = ToplevelRequired
-        fxtag = mpaso-ew2.3.000
+        fxtag = mpaso-ew2.3.002
 
 [submodule "mpas-seaice"]
         path = components/mpas-seaice
         url = https://github.com/EarthWorksOrg/mpas-seaice.git
         fxDONOTUSEurl = https://github.com/EarthWorksOrg/mpas-seaice.git
         fxrequired = ToplevelRequired
-        fxtag = mpassi-ew2.3.000
+        fxtag = mpassi-ew2.3.001
 
 [submodule "mpas-framework"]
         path = components/mpas-framework
