@@ -57,9 +57,9 @@
 
 [submodule "cam"]
         path = components/cam
-        url = https://www.github.com/EarthWorksOrg/CAM
+        url = https://www.github.com/gdicker1/CAM
         fxDONOTUSEurl = https://www.github.com/ESCOMP/CAM
-        fxtag = cam-ew2.3.006
+        fxtag = fix/mpasa_ansdiffs_cpu
         fxrequired = ToplevelRequired
 
 [submodule "clm"]
