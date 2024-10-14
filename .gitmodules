@@ -64,10 +64,10 @@
 
 [submodule "clm"]
         path = components/clm
-        url = https://github.com/EarthWorksOrg/CTSM
+        url = https://github.com/ESCOMP/CTSM
         fxDONOTUSEurl = https://github.com/ESCOMP/CTSM
         fxrequired = ToplevelRequired
-        fxtag = ctsm-ew2.3.004
+        fxtag = ctsm5.2.009
 
 [submodule "cice"]
         path = components/cice
