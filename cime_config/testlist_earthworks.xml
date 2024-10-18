@@ -2,6 +2,37 @@
 <testlist version="2.0">
 
   <!-- ew-pr Tests to run for the EW PR process -->
+  <test name="ERP_Ln9_P128_Vnuopc" grid="mpasa120z32_mpasa120" compset="FHS94" >
+    <machines>
+      <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
+      <machine name="derecho" compiler="intel" category="ew-pr"/>
+      <machine name="derecho" compiler="gnu" category="ew-pr"/>
+    </machines>
+    <options>
+      <option name="wallclock"> 00:05:00 </option>
+      <option name="comment">Atmosphere-only test with Held Suarez simple physics. Exact restart tests that uses half the PEs when restarted</option>
+    </options>
+  </test>
+  <test name="ERP_Ln9_P128_Vnuopc" grid="mpasa120_oQU120" compset="F2000climoEW" >
+    <machines>
+      <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
+    </machines>
+    <options>
+      <option name="wallclock"> 00:20:00 </option>
+      <option name="comment">Analogue to F2000climo in ESCOMP/CAM, but with MPASSI%PRES instead of CICE. Exact restart tests that uses half the PEs when restarted</option>
+    </options>
+  </test>
+  <test name="ERP_Ln9_P256_Vnuopc" grid="mpasa120_oQU120" compset="CHAOS2000dev" >
+    <machines>
+      <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
+      <machine name="derecho" compiler="intel" category="ew-pr"/>
+      <machine name="derecho" compiler="gnu" category="ew-pr"/>
+    </machines>
+    <options>
+      <option name="wallclock"> 01:00:00 </option>
+      <option name="comment">EarthWorks model with active mpasa, mpaso, mpassi using cam_dev physics. Exact restart tests that uses half the PEs when restarted</option>
+    </options>
+  </test>
   <test name="SMS_P128_Vnuopc" grid="mpasa120z32_mpasa120" compset="FHS94" >
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
