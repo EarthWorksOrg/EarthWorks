@@ -30,14 +30,14 @@
         path = ccs_config
         url = https://github.com/EarthWorksOrg/ccs_config_cesm.git
         fxDONOTUSEurl = https://github.com/ESMCI/ccs_config_cesm.git
-        fxtag = ccs_config-ew2.3.004
+        fxtag = ccs_config-ew2.3.005
         fxrequired = ToplevelRequired
 
 [submodule "cime"]
         path = cime
         url = https://github.com/EarthWorksOrg/cime
         fxDONOTUSEurl = https://github.com/ESMCI/cime
-        fxtag = cime-ew2.3.003
+        fxtag = cime-ew2.3.004
         fxrequired = ToplevelRequired
 
 # EarthWorks is not using fms
@@ -46,7 +46,7 @@
 #         url = https://github.com/ESCOMP/FMS_interface
 #         fxDONOTUSEurl = https://github.com/ESCOMP/FMS_interface
 #         fxrequired = ToplevelRequired
-#         fxtag = fi_240516
+#         fxtag = fi_240828
 
 [submodule "share"]
         path = share
@@ -59,15 +59,15 @@
         path = components/cam
         url = https://www.github.com/EarthWorksOrg/CAM
         fxDONOTUSEurl = https://www.github.com/ESCOMP/CAM
-        fxtag = cam-ew2.3.006
+        fxtag = cam-ew2.3.007
         fxrequired = ToplevelRequired
 
 [submodule "clm"]
         path = components/clm
-        url = https://github.com/EarthWorksOrg/CTSM
+        url = https://github.com/ESCOMP/CTSM
         fxDONOTUSEurl = https://github.com/ESCOMP/CTSM
         fxrequired = ToplevelRequired
-        fxtag = ctsm-ew2.3.004
+        fxtag = ctsm5.3.002
 
 [submodule "cice"]
         path = components/cice
@@ -82,7 +82,7 @@
 #         url = https://github.com/ESCOMP/MOM_interface
 #         fxDONOTUSEurl = https://github.com/ESCOMP/MOM_interface
 #         fxrequired = ToplevelRequired
-#         fxtag = mi_240705
+#         fxtag = mi_240923
 
 # EarthWorks is not using cism
 # [submodule "cism"]
@@ -97,14 +97,14 @@
         url = https://github.com/ESCOMP/CDEPS
         fxDONOTUSEurl = https://github.com/ESCOMP/CDEPS
         fxrequired = ToplevelRequired
-        fxtag = cdeps1.0.45
+        fxtag = cdeps1.0.53
 
 [submodule "cmeps"]
         path = components/cmeps
         url = https://github.com/EarthWorksOrg/CMEPS.git
         fxDONOTUSEurl = https://github.com/ESCOMP/CMEPS.git
         fxrequired = ToplevelRequired
-        fxtag = cmeps-ew2.3.004
+        fxtag = cmeps-ew2.3.005
 
 # EarthWorks is not using rtm
 # [submodule "rtm"]
@@ -119,7 +119,7 @@
 #         path = components/ww3
 #         url = https://github.com/ESCOMP/WW3_interface
 #         fxDONOTUSEurl = https://github.com/ESCOMP/WW3_interface
-#         fxtag = ww3i_0.0.2
+#         fxtag = main_0.0.14
 #         fxrequired = ToplevelRequired
 
 # EarthWorks is not using mizuroute
@@ -142,7 +142,7 @@
         url = https://github.com/NCAR/ParallelIO
         fxDONOTUSEurl = https://github.com/NCAR/ParallelIO
         fxrequired = ToplevelRequired
-        fxtag = pio2_6_2
+        fxtag = pio2_6_3
 
 [submodule "mpi-serial"]
         path = libraries/mpi-serial
