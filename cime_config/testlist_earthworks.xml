@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <testlist version="2.0">
 
-  <!-- ew-pr to run for the EW PR process -->
+  <!-- ew-pr Tests to run for the EW PR process -->
   <test name="ERP_Ln9_P128_Vnuopc" grid="mpasa120z32_mpasa120" compset="FHS94" testmods="cam/outfrq9s_mpasa120" >
     <machines>
-      <machine name="derecho" compiler="nvhpc" category="ew-pr-restart"/>
-      <machine name="derecho" compiler="intel" category="ew-pr-restart"/>
-      <machine name="derecho" compiler="gnu"   category="ew-pr-restart"/>
+      <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
+      <machine name="derecho" compiler="intel" category="ew-pr"/>
+      <machine name="derecho" compiler="gnu"   category="ew-pr"/>
     </machines>
     <options>
       <option name="wallclock"> 00:20:00 </option>
@@ -15,23 +15,13 @@
   </test>
   <test name="ERP_Ln9_P256_Vnuopc" grid="mpasa120_oQU120" compset="CHAOS2000dev" testmods="cam/outfrq9s_mpasa120" >
     <machines>
-      <machine name="derecho" compiler="nvhpc" category="ew-pr-restart"/>
-      <machine name="derecho" compiler="intel" category="ew-pr-restart"/>
-      <machine name="derecho" compiler="gnu"   category="ew-pr-restart"/>
+      <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
+      <machine name="derecho" compiler="intel" category="ew-pr"/>
+      <machine name="derecho" compiler="gnu"   category="ew-pr"/>
     </machines>
     <options>
       <option name="wallclock"> 02:00:00 </option>
       <option name="comment">EarthWorks model with active mpasa, mpaso, mpassi using cam_dev physics. Exact restart tests that uses half the PEs when restarted</option>
-    </options>
-  </test>
-  <test name="SMS_P128_Vnuopc" grid="mpasa120z32_mpasa120" compset="FHS94" >
-    <machines>
-      <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
-      <machine name="derecho" compiler="intel" category="ew-pr"/>
-      <machine name="derecho" compiler="gnu" category="ew-pr"/>
-    </machines>
-    <options>
-      <option name="wallclock"> 00:05:00 </option>
     </options>
   </test>
   <test name="SMS_P128_Vnuopc" grid="mpasa120z32_mpasa120" compset="FKESSLER" >
