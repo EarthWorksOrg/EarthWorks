@@ -40,7 +40,7 @@
       <option name="wallclock"> 00:20:00 </option>
     </options>
   </test>
-  <test name="SMS_P128_Vnuopc" grid="mpasa120_oQU120" compset="F2000climoEW" >
+  <test name="SMS_P256_Vnuopc" grid="mpasa120_oQU120" compset="F2000climoEW" >
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
     </machines>
@@ -48,7 +48,7 @@
       <option name="wallclock"> 00:20:00 </option>
     </options>
   </test>
-  <test name="SMS_P128_Vnuopc" grid="mpasa120_oQU120" compset="FullyCoupledEW" >
+  <test name="SMS_P256_Vnuopc" grid="mpasa120_oQU120" compset="FullyCoupledEW" >
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
     </machines>
@@ -61,6 +61,14 @@
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
       <machine name="derecho" compiler="intel" category="ew-pr"/>
+    </machines>
+    <options>
+      <option name="wallclock"> 01:00:00 </option>
+      <option name="comment">EarthWorks model with active mpasa, mpaso, mpassi using cam_dev physics</option>
+    </options>
+  </test>
+  <test name="SMS_P256_Vnuopc" grid="mpasa120_oQU120" compset="CHAOS2000dev" >
+    <machines>
       <machine name="derecho" compiler="gnu" category="ew-pr"/>
     </machines>
     <options>
@@ -82,7 +90,7 @@
   </test>
 
   <!-- ew-rel Tests to run while creating a release -->
-  <test name="ERS_P128_Vnuopc" grid="mpasa120_oQU120" compset="CHAOS2000dev">
+  <test name="ERS_P256_Vnuopc" grid="mpasa120_oQU120" compset="CHAOS2000dev">
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-rel"/>
       <machine name="derecho" compiler="intel" category="ew-rel"/>
@@ -91,7 +99,7 @@
       <option name="wallclock"> 00:15:00 </option>
     </options>
   </test>
-  <test name="ERS_P128_Vnuopc" grid="mpasa120z58_oQU120" compset="CHAOS2000dev">
+  <test name="ERS_P256_Vnuopc" grid="mpasa120z58_oQU120" compset="CHAOS2000dev">
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-rel"/>
       <machine name="derecho" compiler="intel" category="ew-rel"/>
@@ -100,7 +108,7 @@
       <option name="wallclock"> 12:00:00 </option>
     </options>
   </test>
-  <test name="ERS_P128_Vnuopc" grid="mpasa060_oQU060" compset="CHAOS2000dev">
+  <test name="ERS_P256_Vnuopc" grid="mpasa060_oQU060" compset="CHAOS2000dev">
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-rel"/>
       <machine name="derecho" compiler="intel" category="ew-rel"/>
