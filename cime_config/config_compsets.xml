@@ -44,6 +44,16 @@
   </compset>
 
   <compset>
+    <alias>BLT1850_MARBL</alias>
+    <lname>1850_CAM70%LT_CLM60%BGC-CROP_CICE_MOM6%MARBL-BIO_MOSART_DGLC%NOEVOLVE_SWAV</lname>
+  </compset>
+
+  <compset>
+    <alias>BMT1850_MARBL</alias>
+    <lname>1850_CAM70%MT_CLM60%BGC-CROP_CICE_MOM6%MARBL-BIO_MOSART_DGLC%NOEVOLVE_SWAV</lname>
+  </compset>
+
+  <compset>
     <alias>BLTHIST</alias>
     <lname>HIST_CAM70%LT_CLM60%BGC-CROP_CICE_MOM6_MOSART_DGLC%NOEVOLVE_SWAV</lname>
   </compset>
@@ -51,6 +61,11 @@
   <compset>
     <alias>BMT1850</alias>
     <lname>1850_CAM70%MT_CLM60%BGC-CROP_CICE_MOM6_MOSART_DGLC%NOEVOLVE_SWAV</lname>
+  </compset>
+
+  <compset>
+    <alias>BMT1850_MARBL</alias>
+    <lname>1850_CAM70%MT_CLM60%BGC-CROP_CICE_MOM6%MARBL-BIO_MOSART_DGLC%NOEVOLVE_SWAV</lname>
   </compset>
 
   <compset>
@@ -109,6 +124,7 @@
      <alias>CHAOS2000dev</alias>
      <lname>2000_CAM70_CLM50%SP_MPASSI_MPASO_MOSART_SGLC_SWAV</lname>
   </compset>
+  <!-- END EarthWorks specific compsets -->
 
   <entries>
     <entry id="RUN_STARTDATE">
@@ -119,6 +135,11 @@
 	<value compset="5505[CE]?_"     >1955-01-01</value>
 	<value compset="RCP[2468][CE]?_">2005-01-01</value>
 	<value compset="2013[CE]?_"     >2013-01-01</value>
+      </values>
+    </entry>
+    <entry id="LND_SETS_DUST_EMIS_DRV_FLDS">
+      <values match="first">
+      <value compset="_CAM7.*_CLM6">FALSE</value>
       </values>
     </entry>
   </entries>
