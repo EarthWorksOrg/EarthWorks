@@ -30,14 +30,14 @@
         path = ccs_config
         url = https://github.com/EarthWorksOrg/ccs_config_cesm.git
         fxDONOTUSEurl = https://github.com/ESMCI/ccs_config_cesm.git
-        fxtag = ccs_config-ew2.3.006
+        fxtag = release-ccs_config-ew2.4
         fxrequired = ToplevelRequired
 
 [submodule "cime"]
         path = cime
         url = https://github.com/EarthWorksOrg/cime
         fxDONOTUSEurl = https://github.com/ESMCI/cime
-        fxtag = cime-ew2.3.004
+        fxtag = release-cime-ew2.4
         fxrequired = ToplevelRequired
 
 # EarthWorks is not using fms
@@ -59,7 +59,7 @@
         path = components/cam
         url = https://www.github.com/EarthWorksOrg/CAM
         fxDONOTUSEurl = https://www.github.com/ESCOMP/CAM
-        fxtag = cam-ew2.3.008
+        fxtag = release-cam-ew2.4
         fxrequired = ToplevelRequired
 
 [submodule "clm"]
@@ -104,7 +104,7 @@
         url = https://github.com/EarthWorksOrg/CMEPS.git
         fxDONOTUSEurl = https://github.com/ESCOMP/CMEPS.git
         fxrequired = ToplevelRequired
-        fxtag = cmeps-ew2.3.005
+        fxtag = release-cmeps-ew2.4
 
 # EarthWorks is not using rtm
 # [submodule "rtm"]
@@ -164,21 +164,21 @@
         url = https://github.com/EarthWorksOrg/mpas-ocean.git
         fxDONOTUSEurl = https://github.com/EarthWorksOrg/mpas-ocean.git
         fxrequired = ToplevelRequired
-        fxtag = mpaso-ew2.3.003
+        fxtag = release-mpaso-ew2.4
 
 [submodule "mpas-seaice"]
         path = components/mpas-seaice
         url = https://github.com/EarthWorksOrg/mpas-seaice.git
         fxDONOTUSEurl = https://github.com/EarthWorksOrg/mpas-seaice.git
         fxrequired = ToplevelRequired
-        fxtag = mpassi-ew2.3.002
+        fxtag = release-mpassi-ew2.4
 
 [submodule "mpas-framework"]
         path = components/mpas-framework
         url = https://github.com/EarthWorksOrg/mpas-framework.git
         fxDONOTUSEurl = https://github.com/EarthWorksOrg/mpas-framework.git
         fxrequired = ToplevelRequired
-        fxtag = mpasfrwk-ew2.3.001
+        fxtag = release-mpasfrwk-ew2.4
 
 [submodule "ewms-diags"]
         path = tools/ewms-diags
