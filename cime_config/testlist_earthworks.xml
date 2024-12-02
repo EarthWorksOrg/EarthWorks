@@ -2,6 +2,27 @@
 <testlist version="2.0">
 
   <!-- ew-pr Tests to run for the EW PR process -->
+  <!-- ew-pr-gpu to be run with the other ew-pr tests, CPU+GPU -->
+  <test name="SMS_P1_Vnuopc_G1-a100-openacc" grid="mpasa120z32_mpasa120" compset="FKESSLER" >
+    <machines>
+      <machine name="derecho" compiler="nvhpc" category="ew-pr-gpu"/>
+    </machines>
+    <options>
+      <option name="wallclock"> 00:20:00 </option>
+      <option name="comment">Test GPU with dycore-only, simple physics</option>
+    </options>
+  </test>
+  <test name="ERS_Ln9_G4-a100-openacc_Vnuopc" grid="ne30pg3_ne30pg3_mg17" compset="F2000dev" testmods="cam/outfrq9s_mg3_default">
+    <machines>
+      <machine name="derecho" compiler="nvhpc" category="ew-pr-gpu"/>
+    </machines>
+    <options>
+      <option name="wallclock"> 00:20:00 </option>
+      <option name="comment">Test with all GPU physics enabled</option>
+    </options>
+  </test>
+
+  <!-- ew-pr CPU-only Tests -->
   <test name="ERP_Ln9_P128_Vnuopc" grid="mpasa120z32_mpasa120" compset="FHS94" testmods="cam/outfrq9s_mpasa120" >
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
