@@ -108,7 +108,7 @@
       <option name="wallclock"> 12:00:00 </option>
     </options>
   </test>
-  <test name="ERS_P256_Vnuopc" grid="mpasa060_oQU060" compset="CHAOS2000dev">
+  <test name="ERS_P256_Vnuopc" grid="mpasa60_oQU060" compset="CHAOS2000dev">
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-rel"/>
       <machine name="derecho" compiler="intel" category="ew-rel"/>
@@ -117,7 +117,7 @@
       <option name="wallclock"> 12:00:00 </option>
     </options>
   </test>
-  <test name="ERS_P5120_Vnuopc" grid="mpasa030_oQU030" compset="CHAOS2000dev">
+  <test name="ERS_P5120_Vnuopc" grid="mpasa30_oQU030" compset="CHAOS2000dev">
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-rel"/>
       <machine name="derecho" compiler="intel" category="ew-rel"/>
@@ -126,7 +126,7 @@
       <option name="wallclock"> 12:00:00 </option>
     </options>
   </test>
-  <test name="ERS_P10240_Vnuopc" grid="mpasa015z58_oQU015" compset="CHAOS2000dev">
+  <test name="ERS_P12800_Vnuopc" grid="mpasa15z58_oQU015" compset="CHAOS2000dev">
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-rel"/>
       <machine name="derecho" compiler="intel" category="ew-rel"/>
