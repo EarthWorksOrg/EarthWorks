@@ -138,7 +138,7 @@
       <option name="wallclock"> 12:00:00 </option>
     </options>
   </test>
-  <test name="ERS_P5120_Vnuopc" grid="mpasa30_oQU030" compset="CHAOS2000dev">
+  <test name="ERS_P5120_Vnuopc" grid="mpasa30_oQU030" compset="CHAOS2000dev" testmods="ew/mpasa30_oQU030" >
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-rel"/>
       <machine name="derecho" compiler="intel" category="ew-rel"/>
