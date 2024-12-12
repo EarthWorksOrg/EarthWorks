@@ -164,14 +164,16 @@
         url = https://github.com/EarthWorksOrg/mpas-ocean.git
         fxDONOTUSEurl = https://github.com/EarthWorksOrg/mpas-ocean.git
         fxrequired = ToplevelRequired
-        fxtag = release-mpaso-ew2.4
+        fxtag = ocean/seaice/logging
+        #fxtag = release-mpaso-ew2.4
 
 [submodule "mpas-seaice"]
         path = components/mpas-seaice
         url = https://github.com/EarthWorksOrg/mpas-seaice.git
         fxDONOTUSEurl = https://github.com/EarthWorksOrg/mpas-seaice.git
         fxrequired = ToplevelRequired
-        fxtag = release-mpassi-ew2.4
+        fxtag = ocean/seaice/logging
+        #fxtag = release-mpassi-ew2.4
 
 [submodule "mpas-framework"]
         path = components/mpas-framework
