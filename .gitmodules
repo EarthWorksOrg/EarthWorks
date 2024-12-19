@@ -30,7 +30,7 @@
         path = ccs_config
         url = https://github.com/gdicker1/ccs_config_cesm.git
         fxDONOTUSEurl = https://github.com/ESMCI/ccs_config_cesm.git
-        fxtag = revert/derecho_nvhpc249
+        fxtag = ccs_config-ew2.3.007
         fxrequired = ToplevelRequired
 
 [submodule "cime"]
