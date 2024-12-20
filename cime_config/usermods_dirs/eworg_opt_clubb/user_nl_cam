@@ -1,0 +1,3 @@
+clubb_l_diag_lscale_from_tau = .true.
+clubb_penta_solve_method = 2
+clubb_tridiag_solve_method = 2

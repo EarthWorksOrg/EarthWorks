@@ -2,14 +2,47 @@
 <testlist version="2.0">
 
   <!-- ew-pr Tests to run for the EW PR process -->
-  <test name="SMS_P128_Vnuopc" grid="mpasa120z32_mpasa120" compset="FHS94" >
+  <!-- ew-pr-gpu to be run with the other ew-pr tests, CPU+GPU -->
+  <test name="SMS_P1_Vnuopc_G1-a100-openacc" grid="mpasa120z32_mpasa120" compset="FKESSLER" >
+    <machines>
+      <machine name="derecho" compiler="nvhpc" category="ew-pr-gpu"/>
+    </machines>
+    <options>
+      <option name="wallclock"> 00:20:00 </option>
+      <option name="comment">Test GPU with dycore-only, simple physics</option>
+    </options>
+  </test>
+  <test name="ERS_Ln9_G4-a100-openacc_Vnuopc" grid="ne30pg3_ne30pg3_mg17" compset="F2000dev" testmods="cam/outfrq9s_mg3_default">
+    <machines>
+      <machine name="derecho" compiler="nvhpc" category="ew-pr-gpu"/>
+    </machines>
+    <options>
+      <option name="wallclock"> 00:20:00 </option>
+      <option name="comment">Test with all GPU physics enabled</option>
+    </options>
+  </test>
+
+  <!-- ew-pr CPU-only Tests -->
+  <test name="ERP_Ln9_P128_Vnuopc" grid="mpasa120z32_mpasa120" compset="FHS94" testmods="cam/outfrq9s_mpasa120" >
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
       <machine name="derecho" compiler="intel" category="ew-pr"/>
-      <machine name="derecho" compiler="gnu" category="ew-pr"/>
+      <machine name="derecho" compiler="gnu"   category="ew-pr"/>
     </machines>
     <options>
-      <option name="wallclock"> 00:05:00 </option>
+      <option name="wallclock"> 00:20:00 </option>
+      <option name="comment">Atmosphere-only test with Held Suarez simple physics. Exact restart tests that uses half the PEs when restarted</option>
+    </options>
+  </test>
+  <test name="ERP_Ln9_P256_Vnuopc" grid="mpasa120_oQU120" compset="CHAOS2000dev" testmods="cam/outfrq9s_mpasa120" >
+    <machines>
+      <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
+      <machine name="derecho" compiler="intel" category="ew-pr"/>
+      <machine name="derecho" compiler="gnu"   category="ew-pr"/>
+    </machines>
+    <options>
+      <option name="wallclock"> 02:00:00 </option>
+      <option name="comment">EarthWorks model with active mpasa, mpaso, mpassi using cam_dev physics. Exact restart tests that uses half the PEs when restarted</option>
     </options>
   </test>
   <test name="SMS_P128_Vnuopc" grid="mpasa120z32_mpasa120" compset="FKESSLER" >
@@ -28,7 +61,7 @@
       <option name="wallclock"> 00:20:00 </option>
     </options>
   </test>
-  <test name="SMS_P128_Vnuopc" grid="mpasa120_oQU120" compset="F2000climoEW" >
+  <test name="SMS_P256_Vnuopc" grid="mpasa120_oQU120" compset="F2000climoEW" >
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
     </machines>
@@ -36,7 +69,7 @@
       <option name="wallclock"> 00:20:00 </option>
     </options>
   </test>
-  <test name="SMS_P128_Vnuopc" grid="mpasa120_oQU120" compset="FullyCoupledEW">
+  <test name="SMS_P256_Vnuopc" grid="mpasa120_oQU120" compset="FullyCoupledEW" >
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
     </machines>
@@ -45,10 +78,18 @@
       <option name="comment">EarthWorks model with active mpasa, mpaso, mpassi</option>
     </options>
   </test>
-  <test name="SMS_P128_Vnuopc" grid="mpasa120_oQU120" compset="CHAOS2000dev">
+  <test name="SMS_P128_Vnuopc" grid="mpasa120_oQU120" compset="CHAOS2000dev" >
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
       <machine name="derecho" compiler="intel" category="ew-pr"/>
+    </machines>
+    <options>
+      <option name="wallclock"> 01:00:00 </option>
+      <option name="comment">EarthWorks model with active mpasa, mpaso, mpassi using cam_dev physics</option>
+    </options>
+  </test>
+  <test name="SMS_P256_Vnuopc" grid="mpasa120_oQU120" compset="CHAOS2000dev" >
+    <machines>
       <machine name="derecho" compiler="gnu" category="ew-pr"/>
     </machines>
     <options>
@@ -70,7 +111,7 @@
   </test>
 
   <!-- ew-rel Tests to run while creating a release -->
-  <test name="ERS_P128_Vnuopc" grid="mpasa120_oQU120" compset="CHAOS2000dev">
+  <test name="ERS_P256_Vnuopc" grid="mpasa120_oQU120" compset="CHAOS2000dev">
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-rel"/>
       <machine name="derecho" compiler="intel" category="ew-rel"/>
@@ -79,7 +120,7 @@
       <option name="wallclock"> 00:15:00 </option>
     </options>
   </test>
-  <test name="ERS_P128_Vnuopc" grid="mpasa120z58_oQU120" compset="CHAOS2000dev">
+  <test name="ERS_P256_Vnuopc" grid="mpasa120z58_oQU120" compset="CHAOS2000dev">
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-rel"/>
       <machine name="derecho" compiler="intel" category="ew-rel"/>
@@ -88,7 +129,7 @@
       <option name="wallclock"> 12:00:00 </option>
     </options>
   </test>
-  <test name="ERS_P128_Vnuopc" grid="mpasa060_oQU060" compset="CHAOS2000dev">
+  <test name="ERS_P256_Vnuopc" grid="mpasa60_oQU060" compset="CHAOS2000dev">
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-rel"/>
       <machine name="derecho" compiler="intel" category="ew-rel"/>
@@ -97,7 +138,7 @@
       <option name="wallclock"> 12:00:00 </option>
     </options>
   </test>
-  <test name="ERS_P5120_Vnuopc" grid="mpasa030_oQU030" compset="CHAOS2000dev">
+  <test name="ERS_P5120_Vnuopc" grid="mpasa30_oQU030" compset="CHAOS2000dev" testmods="ew/mpasa30_oQU030" >
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-rel"/>
       <machine name="derecho" compiler="intel" category="ew-rel"/>
@@ -106,7 +147,7 @@
       <option name="wallclock"> 12:00:00 </option>
     </options>
   </test>
-  <test name="ERS_P10240_Vnuopc" grid="mpasa015z58_oQU015" compset="CHAOS2000dev">
+  <test name="ERS_P12800_Vnuopc" grid="mpasa15z58_oQU015" compset="CHAOS2000dev">
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-rel"/>
       <machine name="derecho" compiler="intel" category="ew-rel"/>
