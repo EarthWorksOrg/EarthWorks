@@ -59,7 +59,7 @@
         path = components/cam
         url = https://www.github.com/EarthWorksOrg/CAM
         fxDONOTUSEurl = https://www.github.com/ESCOMP/CAM
-        fxtag = cam-ew2.4.000
+        fxtag = cam-ew2.4.001
         fxrequired = ToplevelRequired
 
 [submodule "clm"]
