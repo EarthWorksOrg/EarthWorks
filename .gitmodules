@@ -38,7 +38,8 @@
         path = cime
         url = https://github.com/EarthWorksOrg/cime
         fxDONOTUSEurl = https://github.com/ESMCI/cime
-        fxtag = cime-ew2.4.000
+        #fxtag = cime-ew2.4.000
+        fxtag = update/ocean3p75
         fxrequired = ToplevelRequired
 
 # EarthWorks is not using fms
