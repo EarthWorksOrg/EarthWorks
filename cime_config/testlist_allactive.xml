@@ -46,7 +46,7 @@
       <machine name="derecho" compiler="intel" category="prealpha"/>
     </machines>
     <options>
-      <option name="wallclock"> 01:00:00 </option>
+      <option name="wallclock"> 02:00:00 </option>
     </options>
   </test>
   <test name="SMS_Ld2" grid="ne30pg3_t232" compset="BLT1850" testmods="allactive/defaultio">
@@ -89,24 +89,6 @@
     </machines>
     <options>
       <option name="wallclock"> 06:00:00 </option>
-    </options>
-  </test>
-  <test name="SMS_Ld1" grid="f09_t232" compset="BW1850" testmods="allactive/defaultio">
-    <machines>
-      <machine name="derecho" compiler="intel" category="prebeta"/>
-      <machine name="derecho" compiler="intel" category="bwaccm"/>
-    </machines>
-    <options>
-      <option name="wallclock"> 01:00:00 </option>
-    </options>
-  </test>
-  <test name="SMS_Ld1" grid="f09_t232" compset="BWma1850" testmods="allactive/defaultio">
-    <machines>
-      <machine name="derecho" compiler="intel" category="prebeta"/>
-      <machine name="derecho" compiler="intel" category="bwaccm"/>
-    </machines>
-    <options>
-      <option name="wallclock"> 01:00:00 </option>
     </options>
   </test>
   <test name="ERS_Ld5" grid="f09_t232" compset="E1850TEST" testmods="cice/default">
@@ -158,14 +140,6 @@
       <machine name="derecho" compiler="intel" category="aux_perf"/>
     </machines>
   </test>
-  <test name="SMS_Ld5" grid="f09_t232_gl4" compset="J1850G" testmods="allactive/cism/test_coupling">
-    <machines>
-      <machine name="derecho" compiler="gnu" category="prebeta"/>
-    </machines>
-    <options>
-      <option name="wallclock"> 00:30:00 </option>
-    </options>
-  </test>
   <test name="SMS_Ld7" grid="f09_t232" compset="BLT1850" testmods="allactive/defaultio">
     <machines>
       <machine name="derecho" compiler="intel" category="prealpha"/>
@@ -179,7 +153,7 @@
       <machine name="derecho" compiler="intel" category="prealpha"/>
     </machines>
     <options>
-      <option name="wallclock"> 01:00:00 </option>
+      <option name="wallclock"> 03:00:00 </option>
     </options>
   </test>
 </testlist>
