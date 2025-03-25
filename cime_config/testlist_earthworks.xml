@@ -3,7 +3,7 @@
 
   <!-- ew-pr Tests to run for the EW PR process -->
   <!-- ew-pr-gpu to be run with the other ew-pr tests, CPU+GPU -->
-  <test name="SMS_P1_Vnuopc_G1-a100-openacc" grid="mpasa120z32_mpasa120" compset="FKESSLER" >
+  <test name="SMS_P1_Vnuopc" grid="mpasa120z32_mpasa120" compset="FKESSLER" testmods="ew/outfrq9s_gpu_default">
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-pr-gpu"/>
     </machines>
@@ -12,7 +12,7 @@
       <option name="comment">Test GPU with dycore-only, simple physics</option>
     </options>
   </test>
-  <test name="ERS_Ln9_G4-a100-openacc_Vnuopc" grid="ne30pg3_ne30pg3_mg17" compset="F2000dev" testmods="cam/outfrq9s_mg3_default">
+  <test name="ERS_Ln9_Vnuopc" grid="ne30pg3_ne30pg3_mg17" compset="F2000dev" testmods="ew/outfrq9s_gpu_default">
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-pr-gpu"/>
     </machines>
