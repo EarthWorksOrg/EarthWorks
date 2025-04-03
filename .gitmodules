@@ -57,11 +57,9 @@
 
 [submodule "cam"]
         path = components/cam
-        # url = https://www.github.com/EarthWorksOrg/CAM
-        url = https://www.github.com/gdicker1/CAM
+        url = https://www.github.com/EarthWorksOrg/CAM
         fxDONOTUSEurl = https://www.github.com/ESCOMP/CAM
-        # fxtag = cam-ew2.4.002
-        fxtag = fix/mpasa_gpu_tend_physics_loopbounds
+        fxtag = cam-ew2.4.003
         fxrequired = ToplevelRequired
 
 [submodule "clm"]
