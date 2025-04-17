@@ -30,14 +30,14 @@
         path = ccs_config
         url = https://github.com/EarthWorksOrg/ccs_config_cesm.git
         fxDONOTUSEurl = https://github.com/ESMCI/ccs_config_cesm.git
-        fxtag = ccs_config-ew2.4.002
+        fxtag = ccs_config-ew2.4.003
         fxrequired = ToplevelRequired
 
 [submodule "cime"]
         path = cime
         url = https://github.com/EarthWorksOrg/cime
         fxDONOTUSEurl = https://github.com/ESMCI/cime
-        fxtag = cime-ew2.4.001
+        fxtag = cime-ew2.4.002
         fxrequired = ToplevelRequired
 
 # EarthWorks is not using fms
@@ -164,21 +164,21 @@
         url = https://github.com/EarthWorksOrg/mpas-ocean.git
         fxDONOTUSEurl = https://github.com/EarthWorksOrg/mpas-ocean.git
         fxrequired = ToplevelRequired
-        fxtag = mpaso-ew2.4.002
+        fxtag = mpaso-ew2.4.003
 
 [submodule "mpas-seaice"]
         path = components/mpas-seaice
         url = https://github.com/EarthWorksOrg/mpas-seaice.git
         fxDONOTUSEurl = https://github.com/EarthWorksOrg/mpas-seaice.git
         fxrequired = ToplevelRequired
-        fxtag = mpassi-ew2.4.002
+        fxtag = mpassi-ew2.4.003
 
 [submodule "mpas-framework"]
         path = components/mpas-framework
         url = https://github.com/EarthWorksOrg/mpas-framework.git
         fxDONOTUSEurl = https://github.com/EarthWorksOrg/mpas-framework.git
         fxrequired = ToplevelRequired
-        fxtag = mpasfrwk-ew2.4.000
+        fxtag = mpasfrwk-ew2.4.001
 
 [submodule "ewms-diags"]
         path = tools/ewms-diags
