@@ -64,7 +64,7 @@
         # url = https://www.github.com/EarthWorksOrg/CAM
         url = https://www.github.com/gdicker1/CAM
         fxDONOTUSEurl = https://www.github.com/ESCOMP/CAM
-        # fxtag = cam-ew2.4.003
+        # fxtag = cam-ew2.4.005
         fxtag = update/cesm3_0_beta06/cam6_4_089
         fxrequired = ToplevelRequired
 
@@ -186,7 +186,7 @@
         url = https://github.com/EarthWorksOrg/mpas-framework.git
         fxDONOTUSEurl = https://github.com/EarthWorksOrg/mpas-framework.git
         fxrequired = ToplevelRequired
-        fxtag = mpasfrwk-ew2.4.001
+        fxtag = mpasfrwk-ew2.4.002
 
 [submodule "ewms-diags"]
         path = tools/ewms-diags
