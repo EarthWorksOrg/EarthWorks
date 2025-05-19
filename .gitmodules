@@ -57,11 +57,9 @@
 
 [submodule "cam"]
         path = components/cam
-        # url = https://www.github.com/EarthWorksOrg/CAM
-        url = https://www.github.com/gdicker1/CAM
+        url = https://www.github.com/EarthWorksOrg/CAM
         fxDONOTUSEurl = https://www.github.com/ESCOMP/CAM
-        # fxtag = cam-ew2.4.003
-        fxtag = block_decomp_fix_openmpi_v5x
+        fxtag = cam-ew2.4.005
         fxrequired = ToplevelRequired
 
 [submodule "clm"]
@@ -177,12 +175,10 @@
 
 [submodule "mpas-framework"]
         path = components/mpas-framework
-        # url = https://github.com/EarthWorksOrg/mpas-framework.git
-        url = https://github.com/gdicker1/mpas-framework.git
+        url = https://github.com/EarthWorksOrg/mpas-framework.git
         fxDONOTUSEurl = https://github.com/EarthWorksOrg/mpas-framework.git
         fxrequired = ToplevelRequired
-        # fxtag = mpasfrwk-ew2.4.001
-        fxtag = block_decomp_fix_openmpi_v5x
+        fxtag = mpasfrwk-ew2.4.002
 
 [submodule "ewms-diags"]
         path = tools/ewms-diags
