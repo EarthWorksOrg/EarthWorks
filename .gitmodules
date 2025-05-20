@@ -28,20 +28,16 @@
 
 [submodule "ccs_config"]
         path = ccs_config
-        # url = https://github.com/EarthWorksOrg/ccs_config_cesm.git
-        url = https://github.com/gdicker1/ccs_config_cesm.git
+        url = https://github.com/EarthWorksOrg/ccs_config_cesm.git
         fxDONOTUSEurl = https://github.com/ESMCI/ccs_config_cesm.git
-        # fxtag = ccs_config-ew2.4.003
-        fxtag = update/cesm3_0_beta06/ccs_config_cesm1.0.40
+        fxtag = ccs_config-ew2.4.004
         fxrequired = ToplevelRequired
 
 [submodule "cime"]
         path = cime
-        # url = https://github.com/EarthWorksOrg/cime
-        url = https://github.com/gdicker1/cime
+        url = https://github.com/EarthWorksOrg/cime
         fxDONOTUSEurl = https://github.com/ESMCI/cime
-        # fxtag = cime-ew2.4.002
-        fxtag = update/cesm3_0_beta06/cime6.1.93
+        fxtag = cime-ew2.4.003
         fxrequired = ToplevelRequired
 
 # EarthWorks is not using fms
@@ -61,11 +57,9 @@
 
 [submodule "cam"]
         path = components/cam
-        # url = https://www.github.com/EarthWorksOrg/CAM
-        url = https://www.github.com/gdicker1/CAM
+        url = https://www.github.com/EarthWorksOrg/CAM
         fxDONOTUSEurl = https://www.github.com/ESCOMP/CAM
-        # fxtag = cam-ew2.4.005
-        fxtag = update/cesm3_0_beta06/cam6_4_089
+        fxtag = cam-ew2.4.006
         fxrequired = ToplevelRequired
 
 [submodule "clm"]
@@ -107,12 +101,10 @@
 
 [submodule "cmeps"]
         path = components/cmeps
-        # url = https://github.com/EarthWorksOrg/CMEPS.git
-        url = https://github.com/gdicker1/CMEPS.git
+        url = https://github.com/EarthWorksOrg/CMEPS.git
         fxDONOTUSEurl = https://github.com/ESCOMP/CMEPS.git
         fxrequired = ToplevelRequired
-        # fxtag = cmeps-ew2.4.001
-        fxtag = update/cesm3_0_beta06/cmeps1.0.47
+        fxtag = cmeps-ew2.4.002
 
 # EarthWorks is not using rtm
 # [submodule "rtm"]
