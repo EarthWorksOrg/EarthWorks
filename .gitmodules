@@ -57,11 +57,9 @@
 
 [submodule "cam"]
         path = components/cam
-        # url = https://www.github.com/EarthWorksOrg/CAM
-        url = https://www.github.com/gdicker1/CAM
+        url = https://www.github.com/EarthWorksOrg/CAM
         fxDONOTUSEurl = https://www.github.com/ESCOMP/CAM
-        # fxtag = cam-ew2.5.000
-        fxtag = fix/nvhpc_mem_leak_01
+        fxtag = cam-ew2.5.001
         fxrequired = ToplevelRequired
 
 [submodule "clm"]
