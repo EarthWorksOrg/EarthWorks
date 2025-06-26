@@ -33,7 +33,7 @@ OWNED RIGHTS.
 
 *******************************************************************************
 
-EWMS was developed from elements of  CESM2.3beta09 and E3SM v2.0.0
+EWMS was developed from elements of  CESM3.0beta06 and E3SM v2.1.0
 
 *******************************************************************************
 CESM Copyright Notice and Disclaimer:
@@ -68,7 +68,7 @@ CIME            cime/scripts             UCAR, SNL             BSD
 cpl7            driver-mct/              UCAR, ANL             BSD
 MCT             externals/mct            ANL                   BSD
 ESMF            external library         UI, NCSA              BSD 3-Clause
-XML/Lite        cime/utils/perl5lib      The Wadsack-Allen     GGPL-v1 or later
+XML/Lite        cime/utils/perl5lib      The Wadsack-Allen     Same as Perl
                                          Digital Group 
 Inf_NaN         ./share/src              Lahey Compute Systems, non-commercial[^1]
                                          Inc.
@@ -83,13 +83,7 @@ SCRIP                                    LANL                  BSD 3-Clause
 
 Land            components/clm/src
 -----------------------------------------
-FATES           external_models/fates    UCAR, U.C. Berkeley   GLGPL-v3
-CISM            components/cism          UCAR, LANL,
-                                         LBNL, SNL, ORNL,
-                                         U. Montana, NYU,
-                                         U. Edinburgh,
-                                         U. Bristol,
-                                         U. Swansea
+FATES           external_models/fates    UCAR, U.C. Berkeley   FATES License
 
 Atmosphere      under components/cam/src
 -----------------------------------------
@@ -97,7 +91,7 @@ MPAS Atmosphere dynamics/mpas            LANL, UCAR            BSD 3-Clause
 CLUBB           physics/clubb            the Larson Research   non-commercial[^2]
                                          Group
 RRTMGP          physics/rrtmgp/external  AER and the U Colo.   BSD 3-Clause
-ISCCP[^3]       physics/cosp2/src/       UK Met Office;        unknown
+ISCCP[^3]       physics/cosp2/src/       UK Met Office;        BSD 3-Clause
                                          Authors[^4]
 -------------------------------------------------------------------------------
 
