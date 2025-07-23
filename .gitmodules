@@ -161,10 +161,12 @@
 # EarthWorks-specific
 [submodule "mpas-ocean"]
         path = components/mpas-ocean
-        url = https://github.com/EarthWorksOrg/mpas-ocean.git
+        # url = https://github.com/EarthWorksOrg/mpas-ocean.git
+        url = https://github.com/Pranay-Reddy-Kommera/mpas-ocean
         fxDONOTUSEurl = https://github.com/EarthWorksOrg/mpas-ocean.git
         fxrequired = ToplevelRequired
-        fxtag = mpaso-ew2.5.002
+        # fxtag = mpaso-ew2.5.002
+        fxtag = mpaso-openacc-integration
 
 [submodule "mpas-seaice"]
         path = components/mpas-seaice
@@ -175,10 +177,12 @@
 
 [submodule "mpas-framework"]
         path = components/mpas-framework
-        url = https://github.com/EarthWorksOrg/mpas-framework.git
+        # url = https://github.com/EarthWorksOrg/mpas-framework.git
+        url = https://github.com/Pranay-Reddy-Kommera/mpas-ocean
         fxDONOTUSEurl = https://github.com/EarthWorksOrg/mpas-framework.git
         fxrequired = ToplevelRequired
-        fxtag = mpasfrwk-ew2.5.000
+        # fxtag = mpasfrwk-ew2.5.000
+        fxtag = mpaso-openacc-integration
 
 [submodule "ewms-diags"]
         path = tools/ewms-diags
