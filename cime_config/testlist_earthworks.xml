@@ -62,29 +62,12 @@
       <option name="wallclock"> 00:05:00 </option>
     </options>
   </test>
-  <test name="SMS_P128_Vnuopc" grid="mpasa120_mpasa120" compset="QPC6" >
+  <test name="SMS_P128_Vnuopc" grid="mpasa120_mpasa120" compset="QPC7" >
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
     </machines>
     <options>
       <option name="wallclock"> 00:20:00 </option>
-    </options>
-  </test>
-  <test name="SMS_P256_Vnuopc" grid="mpasa120_oQU120" compset="F2000climoEW" >
-    <machines>
-      <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
-    </machines>
-    <options>
-      <option name="wallclock"> 00:20:00 </option>
-    </options>
-  </test>
-  <test name="SMS_P256_Vnuopc" grid="mpasa120_oQU120" compset="FullyCoupledEW" >
-    <machines>
-      <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
-    </machines>
-    <options>
-      <option name="wallclock"> 01:00:00 </option>
-      <option name="comment">EarthWorks model with active mpasa, mpaso, mpassi</option>
     </options>
   </test>
   <test name="SMS_P256_Vnuopc" grid="mpasa120_oQU120" compset="CHAOS2000dev" >

@@ -134,24 +134,6 @@
      <alias>CHAOS2000dev</alias>
      <lname>2000_CAM70_CLM60%SP_MPASSI_MPASO_MOSART_SGLC_SWAV</lname>
   </compset>
-
-  <!-- like F2000climo, with MPASSI prescribed mode -->
-  <compset>
-     <alias>F2000climoEW</alias>
-     <lname>2000_CAM60_CLM50%SP_MPASSI%PRES_DOCN%DOM_MOSART_SGLC_SWAV</lname>
-  </compset>
-
-  <!-- like F2000climo, with MPASSI and MPASO -->
-  <compset>
-      <alias>FullyCoupledEW</alias>
-      <lname>2000_CAM60_CLM50%SP_MPASSI_MPASO_SROF_SGLC_SWAV</lname>
-  </compset>
-
-  <!-- Like FullyCoupledEW, with MOSART river active too -->
-  <compset>
-     <alias>CHAOS2000</alias>
-     <lname>2000_CAM60_CLM50%SP_MPASSI_MPASO_MOSART_SGLC_SWAV</lname>
-  </compset>
   <!-- END EarthWorks specific compsets -->
 
   <entries>
