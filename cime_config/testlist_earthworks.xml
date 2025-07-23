@@ -43,7 +43,7 @@
       <option name="comment">Atmosphere-only test with Held Suarez simple physics. Exact restart tests that uses half the PEs when restarted</option>
     </options>
   </test>
-  <test name="ERP_Ln9_P256_Vnuopc" grid="mpasa120_oQU120" compset="CHAOS2000dev" testmods="cam/outfrq9s_mpasa120" >
+  <test name="ERP_Ln9_P256_Vnuopc" grid="mpasa120_oQU120" compset="B2000devEW" testmods="cam/outfrq9s_mpasa120" >
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
       <machine name="derecho" compiler="intel" category="ew-pr"/>
@@ -70,7 +70,7 @@
       <option name="wallclock"> 00:20:00 </option>
     </options>
   </test>
-  <test name="SMS_P256_Vnuopc" grid="mpasa120_oQU120" compset="CHAOS2000dev" >
+  <test name="SMS_P256_Vnuopc" grid="mpasa120_oQU120" compset="B2000devEW" >
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
       <machine name="derecho" compiler="intel" category="ew-pr"/>
@@ -95,7 +95,7 @@
   </test>
 
   <!-- ew-rel Tests to run while creating a release -->
-  <test name="ERS_P256_Vnuopc" grid="mpasa120_oQU120" compset="CHAOS2000dev">
+  <test name="ERS_P256_Vnuopc" grid="mpasa120_oQU120" compset="B2000devEW">
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-rel"/>
       <machine name="derecho" compiler="intel" category="ew-rel"/>
@@ -104,7 +104,7 @@
       <option name="wallclock"> 12:00:00 </option>
     </options>
   </test>
-  <test name="ERS_P256_Vnuopc" grid="mpasa120z58_oQU120" compset="CHAOS2000dev">
+  <test name="ERS_P256_Vnuopc" grid="mpasa120z58_oQU120" compset="B2000devEW">
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-rel"/>
       <machine name="derecho" compiler="intel" category="ew-rel"/>
@@ -113,7 +113,7 @@
       <option name="wallclock"> 12:00:00 </option>
     </options>
   </test>
-  <test name="ERS_P256_Vnuopc" grid="mpasa60_oQU060" compset="CHAOS2000dev">
+  <test name="ERS_P256_Vnuopc" grid="mpasa60_oQU060" compset="B2000devEW">
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-rel"/>
       <machine name="derecho" compiler="intel" category="ew-rel"/>
@@ -122,7 +122,7 @@
       <option name="wallclock"> 12:00:00 </option>
     </options>
   </test>
-  <test name="ERS_P5120_Vnuopc" grid="mpasa30_oQU030" compset="CHAOS2000dev" testmods="ew/mpasa30_oQU030" >
+  <test name="ERS_P5120_Vnuopc" grid="mpasa30_oQU030" compset="B2000devEW" testmods="ew/mpasa30_oQU030" >
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-rel"/>
       <machine name="derecho" compiler="intel" category="ew-rel"/>
@@ -131,7 +131,7 @@
       <option name="wallclock"> 12:00:00 </option>
     </options>
   </test>
-  <test name="ERS_P15360_Vnuopc" grid="mpasa15z58_oQU015" compset="CHAOS2000dev">
+  <test name="ERS_P15360_Vnuopc" grid="mpasa15z58_oQU015" compset="B2000devEW">
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-rel"/>
       <machine name="derecho" compiler="intel" category="ew-rel"/>

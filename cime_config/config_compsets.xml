@@ -131,7 +131,7 @@
 
   <!-- like F2000dev, with MPASSI and MPASO active -->
   <compset>
-     <alias>CHAOS2000dev</alias>
+     <alias>B2000devEW</alias>
      <lname>2000_CAM70_CLM60%SP_MPASSI_MPASO_MOSART_SGLC_SWAV</lname>
   </compset>
   <!-- END EarthWorks specific compsets -->
