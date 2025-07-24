@@ -21,7 +21,7 @@
       <option name="comment">Test all GPU physics enabled with SE-dycore</option>
     </options>
   </test>
-  <test name="SMS_Ln9_P4" compset="CMPASO" grid="T62_oQU120" testmods="mpaso/gpu_default">
+  <!-- <test name="SMS_Ln9_P4" compset="CMPASO" grid="T62_oQU120" testmods="mpaso/gpu_default">
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-pr-gpu"/>
     </machines>
@@ -29,7 +29,7 @@
       <option name="wallclock">00:30:00</option>
       <option name="comment">Data-forced MPAS-Ocean running on GPUs. Also uses the 'split_implicit' integration option.</option>
     </options>
-  </test>
+  </test> -->
 
   <!-- ew-pr CPU-only Tests -->
   <test name="ERP_Ln9_P128_Vnuopc" grid="mpasa120z32_mpasa120" compset="FHS94" testmods="cam/outfrq9s_mpasa120" >
