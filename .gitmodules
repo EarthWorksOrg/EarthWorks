@@ -164,7 +164,8 @@
         url = https://github.com/EarthWorksOrg/mpas-ocean.git
         fxDONOTUSEurl = https://github.com/EarthWorksOrg/mpas-ocean.git
         fxrequired = ToplevelRequired
-        fxtag = mpaso-ew2.5.004
+        # fxtag = mpaso-ew2.5.004
+        fxtag = refresh_compsets_tests
 
 [submodule "mpas-seaice"]
         path = components/mpas-seaice
