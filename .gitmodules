@@ -104,7 +104,8 @@
         url = https://github.com/EarthWorksOrg/CMEPS.git
         fxDONOTUSEurl = https://github.com/ESCOMP/CMEPS.git
         fxrequired = ToplevelRequired
-        fxtag = cmeps-ew2.5.001
+        # fxtag = cmeps-ew2.5.001
+        fxtag = update_ncpl_mpascompsets
 
 # EarthWorks is not using rtm
 # [submodule "rtm"]

@@ -22,7 +22,7 @@
     </options>
   </test>
   <!-- Uncomment this test to add it back once the MPAS-O GPU port is solid -->
-  <!-- <test name="SMS_Ln9_P4" compset="CMPASO" grid="T62_oQU120" testmods="mpaso/gpu_default">
+  <!-- <test name="SMS_Ln9_P4" compset="CMPASO" grid="mpasa120_oQU120" testmods="mpaso/gpu_default">
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-pr-gpu"/>
     </machines>
@@ -45,7 +45,7 @@
   </test> -->
 
   <!-- ew-pr CPU-only Tests -->
-  <test name="ERS2_D_Ln9" grid="mpasa120_oQU120" compset="B2000devEW" testmods="ew/outfrq9s" >
+  <test name="ERS2_Ln9" grid="mpasa120_oQU120" compset="B2000devEW" testmods="ew/outfrq9s" >
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
       <machine name="derecho" compiler="intel" category="ew-pr"/>
@@ -65,13 +65,13 @@
       <option name="comment">Use MPASSI%PRES instead of CICE%PRES in F2000dev (from CAM).</option>
     </options>
   </test>
-  <test name="ERS_D_Ln9" grid="mpasa120_oQU120" compset="QPC7" testmods="cam/outfrq9s_mpasa120" >
+  <test name="ERS_Ln9" grid="mpasa120_mpasa120" compset="QPC7" testmods="cam/outfrq9s_mpasa120" >
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
     </machines>
     <options>
       <option name="wallclock"> 00:20:00 </option>
-      <option name="comment">Matches compset in CAM testing. Helps check MPAS-A dycore.</option>
+      <option name="comment">Similar to test in CAM that uses Intel compiler and DEBUG. Helps check MPAS-A dycore.</option>
     </options>
   </test>
   <test name="ERS2" grid="mpasa480_mpasa480" compset="FKESSLER" >
@@ -91,10 +91,10 @@
     </machines>
     <options>
       <option name="wallclock"> 00:20:00 </option>
-      <option name="comment">Atmosphere-only test with Held Suarez simple physics. Exact restart tests that uses half the PEs when restarted</option>
+      <option name="comment">Atmosphere-only test with Held Suarez simple physics.</option>
     </options>
   </test>
-  <test name="ERS2_D" compset="CMPASO" grid="T62_oQU480" >
+  <test name="ERS2_D" compset="CMPASO" grid="mpasa480_oQU480" >
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
       <machine name="derecho" compiler="intel" category="ew-pr"/>
@@ -105,7 +105,7 @@
       <option name="comment">Data-forced MPAS-Ocean. Check restarts and debug at low resolution.</option>
     </options>
   </test>
-  <test name="SMS_Ln9_P4" compset="CMPASO" grid="T62_oQU120" testmods="mpaso/split_implicit" >
+  <test name="SMS_Ln9_P4" compset="CMPASO" grid="mpasa120_oQU120" testmods="mpaso/split_implicit" >
     <machines>
       <machine name="derecho" compiler="nvhpc" category="ew-pr"/>
       <machine name="derecho" compiler="intel" category="ew-pr"/>
