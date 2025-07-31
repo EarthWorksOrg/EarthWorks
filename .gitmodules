@@ -171,7 +171,7 @@
         url = https://github.com/EarthWorksOrg/mpas-seaice.git
         fxDONOTUSEurl = https://github.com/EarthWorksOrg/mpas-seaice.git
         fxrequired = ToplevelRequired
-        fxtag = mpassi-ew2.5.003
+        fxtag = mpassi-ew2.5.004
 
 [submodule "mpas-framework"]
         path = components/mpas-framework
