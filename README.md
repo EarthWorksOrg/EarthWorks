@@ -1,8 +1,10 @@
 # Earthworks
 
-![trackgit-views](https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/lkr44qwuwkgg22lsrolk) [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://github.com/EarthWorksOrg/EarthWorks/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://github.com/EarthWorksOrg/EarthWorks/blob/main/LICENSE)
 
 EarthWorks is a community earth system model that strives to provide high-resolution climate-scale simulations. This work leverages and extends the [Community Earth System Model](https://github.com/ESCOMP/CESM) where possible to allow coupled runs of Atmosphere, Land, and Ocean components on a single grid with horizontal spacing (cell size) less than 4km.
+
+EarthWorks allows the usage of MPAS-Ocean and MPAS-SeaIce components as an extension on CESM. When used with the MPAS-A dynamical core in the Community Atmosphere Model (CAM), regridding operations are reduced. EarthWorks also leverages the GPU-ported physics within CAM, the MPAS-A v7.x OpenACC port, and an MPAS-Ocean OpenACC port to run on GPUs to further increase performance.
 
 Help us out by contributing your ideas and changes! Read the [Contributors' Guide](https://github.com/EarthWorksOrg/EarthWorks/blob/main/CONTRIBUTING.md) for more info.
 

@@ -8,5 +8,5 @@ if [[ "0" == "$?" ]]; then
   echo "EW INPUT DATA CHECK: SUCCESS" | tee ew_data_check.txt
 else
   echo "EW INPUT DATA CHECK: FAIL" | tee ew_data_check.txt
-  echo "It may be necessary to run ./check_input_data --download" | tee ew_data_check.txt
+  echo "It may be necessary to run ./check_input_data --download" | tee -a ew_data_check.txt
 fi
