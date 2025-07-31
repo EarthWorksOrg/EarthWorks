@@ -104,7 +104,7 @@
         url = https://github.com/EarthWorksOrg/CMEPS.git
         fxDONOTUSEurl = https://github.com/ESCOMP/CMEPS.git
         fxrequired = ToplevelRequired
-        fxtag = cmeps-ew2.5.001
+        fxtag = cmeps-ew2.5.002
 
 # EarthWorks is not using rtm
 # [submodule "rtm"]
@@ -164,14 +164,14 @@
         url = https://github.com/EarthWorksOrg/mpas-ocean.git
         fxDONOTUSEurl = https://github.com/EarthWorksOrg/mpas-ocean.git
         fxrequired = ToplevelRequired
-        fxtag = mpaso-ew2.5.004
+        fxtag = mpaso-ew2.5.005
 
 [submodule "mpas-seaice"]
         path = components/mpas-seaice
         url = https://github.com/EarthWorksOrg/mpas-seaice.git
         fxDONOTUSEurl = https://github.com/EarthWorksOrg/mpas-seaice.git
         fxrequired = ToplevelRequired
-        fxtag = mpassi-ew2.5.002
+        fxtag = mpassi-ew2.5.003
 
 [submodule "mpas-framework"]
         path = components/mpas-framework
