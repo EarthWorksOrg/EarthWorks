@@ -189,3 +189,10 @@
         fxrequired = ToplevelRequired
         fxtag = mpasfrwk-ew2.5.000
 
+[submodule "ewms-diags"]
+        path = tools/ewms-diags
+        url = https://github.com/EarthWorksOrg/EarthWorks_diags
+        fxDONOTUSEurl = https://github.com/EarthWorksOrg/EarthWorks_diags
+        fxrequired = ToplevelRequired
+        fxtag = diags-ew1.0.000
+
