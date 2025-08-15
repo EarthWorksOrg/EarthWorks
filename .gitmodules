@@ -28,16 +28,16 @@
 
 [submodule "ccs_config"]
         path = ccs_config
-        url = https://github.com/EarthWorksOrg/ccs_config_cesm.git
+        url = https://github.com/ESMCI/ccs_config_cesm.git
         fxDONOTUSEurl = https://github.com/ESMCI/ccs_config_cesm.git
-        fxtag = ccs_config-ew2.5.007
+        fxtag = ccs_config_cesm1.0.54
         fxrequired = ToplevelRequired
 
 [submodule "cime"]
         path = cime
-        url = https://github.com/EarthWorksOrg/cime
+        url = https://github.com/ESMCI/cime
         fxDONOTUSEurl = https://github.com/ESMCI/cime
-        fxtag = cime-ew2.5.004
+        fxtag = cime6.1.111
         fxrequired = ToplevelRequired
 
 # EarthWorks is not using fms
@@ -57,6 +57,7 @@
 
 [submodule "cam"]
         path = components/cam
+        # EarthWorksOrg/CAM uses MPAS-A v7.x OpenACC
         url = https://www.github.com/EarthWorksOrg/CAM
         fxDONOTUSEurl = https://www.github.com/ESCOMP/CAM
         fxtag = cam-ew2.5.002
@@ -101,10 +102,10 @@
 
 [submodule "cmeps"]
         path = components/cmeps
-        url = https://github.com/EarthWorksOrg/CMEPS.git
+        url = https://github.com/ESCOMP/CMEPS.git
         fxDONOTUSEurl = https://github.com/ESCOMP/CMEPS.git
         fxrequired = ToplevelRequired
-        fxtag = cmeps-ew2.5.003
+        fxtag = cmeps1.1.4
 
 # EarthWorks is not using rtm
 # [submodule "rtm"]
@@ -172,7 +173,7 @@
         url = https://github.com/EarthWorksOrg/mpas-ocean.git
         fxDONOTUSEurl = https://github.com/EarthWorksOrg/mpas-ocean.git
         fxrequired = ToplevelRequired
-        fxtag = mpaso-ew2.5.005
+        fxtag = mpaso-ew2.5.006
 
 [submodule "mpas-seaice"]
         path = components/mpas-seaice
@@ -187,11 +188,4 @@
         fxDONOTUSEurl = https://github.com/EarthWorksOrg/mpas-framework.git
         fxrequired = ToplevelRequired
         fxtag = mpasfrwk-ew2.5.000
-
-[submodule "ewms-diags"]
-        path = tools/ewms-diags
-        url = https://github.com/EarthWorksOrg/EarthWorks_diags
-        fxDONOTUSEurl = https://github.com/EarthWorksOrg/EarthWorks_diags
-        fxrequired = ToplevelRequired
-        fxtag = diags-ew1.0.000
 
